@@ -1,21 +1,9 @@
 # DiffArray
 
-**TODO: Add description**
+## 概要
 
-## Installation
+改行区切りの2つのファイルの差分を求めるモジュールです。
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `diff_array` to your list of dependencies in `mix.exs`:
+`diff/2` 関数では差分結果を文字列として返却します。
 
-```elixir
-def deps do
-  [
-    {:diff_array, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/diff_array](https://hexdocs.pm/diff_array).
-
+`write/3` 関数では、第1引数のパスへ差分結果を出力します。
